@@ -70,6 +70,36 @@ const Features = () => {
             </div>
           ))}
         </div>
+         {/* FAQ */}
+          <div className="mt-12 max-w-3xl mx-auto">
+            <details className="group border-b border-gray-200 py-4">
+              <summary className="flex justify-between items-center font-medium cursor-pointer list-none">
+                <span className="text-gray-900">How does the meal delivery work?</span>
+                <span className="transition group-open:rotate-180">
+                  <svg fill="none" height="24" shapeRendering="geometricPrecision" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" viewBox="0 0 24 24" width="24">
+                    <path d="M6 9l6 6 6-6"></path>
+                  </svg>
+                </span>
+              </summary>
+              <p className="text-gray-600 mt-3 group-open:animate-fadeIn">
+                Choose your plan, select your preferences, and we&apos;ll deliver freshly cooked meals to your doorstep daily. You can modify your menu weekly.
+              </p>
+            </details>
+            
+            <details className="group border-b border-gray-200 py-4">
+              <summary className="flex justify-between items-center font-medium cursor-pointer list-none">
+                <span className="text-gray-900">Can I change or cancel my plan?</span>
+                <span className="transition group-open:rotate-180">
+                  <svg fill="none" height="24" shapeRendering="geometricPrecision" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" viewBox="0 0 24 24" width="24">
+                    <path d="M6 9l6 6 6-6"></path>
+                  </svg>
+                </span>
+              </summary>
+              <p className="text-gray-600 mt-3 group-open:animate-fadeIn">
+                Yes! You can upgrade, downgrade, or cancel your plan anytime. No commitments or hidden fees.
+              </p>
+            </details>
+          </div>
       </div>
     </section>
   );
